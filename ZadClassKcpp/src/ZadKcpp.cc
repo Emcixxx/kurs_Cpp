@@ -112,7 +112,7 @@ void ZadKcpp::doWhileLoop() {
     std::cout << "Pętla do-while:\n";
     do {
         if (i == 5) {
-            std::cout << "Przerwanie pętli i = " i << "\n";
+            std::cout << "Przerwanie pętli i = "<< i << "\n";
             break;
         }
         if (i % 2 == 0) {
